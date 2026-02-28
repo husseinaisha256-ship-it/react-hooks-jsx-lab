@@ -1,8 +1,15 @@
-import React from "react";
-import { image } from "../data/data";
+import React from 'react';
+
+import { image } from '../data/data';
 
 function About() {
-  return <div>About</div>;
+  return (
+    <div id="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer who loves creating interactive and user-friendly applications. When I'm not coding, you can find me exploring new technologies, reading tech blogs, or contributing to open-source projects.</p>
+      <img src={image} alt="I made this" />
+    </div>
+  );
 }
 
 export default About;
